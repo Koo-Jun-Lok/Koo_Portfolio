@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<head>
+
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Profile</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<nav>
+  <ul class="navbar">
+    <li><a href="#page1">👤Profile</a></li>
+    <li><a href="#page2">💖Lifestyle</a></li>
+    <li><a href="#page3">🖼️Gallery</a></li>
+  </ul>
+</nav>
+
+
+<div class="hero" id="profile">
+  <img src="profileImage.jpg" alt="Profile Picture" class="profile-pic">
+  <h1>KOO JUN LOK</h1>
+  <p>Software Engineer | Passionate about Web Technology</p>
+  <p>Age: <span id="age"></span></p>
+</div>
+
+
+<main>
+
+  <header id="page1">
+    <h1>My Profile </h1>
+    <p>Explore about myself, skills, and project!</p>
+  </header>
+
+
+  <section  class="card">
+    <h2>ABOUT ME</h2>
+    <p>
+      I'm a Information Technology(IT) student with a passion for building interactive and user-friendly web experiences. I love learning new technologies and solving real-world problems through code.
+    </p>
+  </section>
+
+  <section  class="card">
+    <h2>EDUCATION</h2>
+    <ul>
+      <li><strong>Universiti Utara Malaysia</strong> | 2022–2025</li>
+      <li>Bachelor of Science with Honours (Information Technology)</li>
+      <li>Major: Software Engineering</li>
+      <li><strong>GPA:</strong> 3.7</li>
+    </ul>
+  </section>
+
+  <section  class="card">
+    <h2>SKILLS </h2>
+    <ul >
+      <li>🧠 Problem Solving</li>
+      <li>⚡ Fast Learner</li>
+      <li>👤 Able to Work Independently</li>
+      <li>🧩 Logical Thinking</li>
+      <li>💻 Passionate in Programming</li>
+      <li>⏰ Time Management</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2> TECHNICAL SKILLS </h2>
+    <ul>
+      <li>✅ JAVA</li>
+      <li>✅Spring Boot</li>
+      <li>✅ HTML5, CSS, JavaScript</li>
+      <li>✅ Responsive Design & UI/UX</li>
+      <li>✅ Git & GitHub</li>
+    </ul>
+  </section>
+
+
+
+  <!-- Font Awesome CDN (only include once in your <head>) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <section class="card">
+    <h2>📦 Projects</h2>
+
+    <div class="project-item">
+      <p>
+        <i class="fab fa-github"></i>
+        <strong>My GitHub Account:</strong>
+        <a href="https://github.com/Koo-Jun-Lok" target="_blank" class="link-button">Visit Profile</a>
+      </p>
+    </div>
+
+    <div class="project-item">
+      <p>
+        <i class="fas fa-bolt"></i>
+        <strong>Electric Bill App:</strong>
+        <a href="https://github.com/STIA1123-A232/groupproject-chatgpt" target="_blank" class="link-button">View on GitHub</a>
+      </p>
+    </div>
+
+    <div class="project-item">
+      <p>
+        <i class="fas fa-book"></i>
+        <strong>Console-based Library System</strong>
+      </p>
+    </div>
+  </section>
+
+
+
+
+  <header id="page2">
+    <h1>My Lifestyle</h1>
+    <p>Explore my interests, hobbies, and wellness habits!</p>
+  </header>
+
+
+  <section id="hobby" class="card hobby-section">
+    <h2>MY HOBBY</h2>
+    <div class="hobby-content">
+      <div class="hobby-item">
+        <img src="img.png" alt="Basketball" class="hobby-img">
+        <p><strong>🏀 Basketball:</strong> Nothing beats the thrill of a fast-paced game! Playing basketball keeps me physically active, sharpens my reflexes, and fuels my passion for teamwork and strategy.</p>
+      </div>
+      <div class="hobby-item">
+        <img src="img_2.png" alt="Reading" class="hobby-img">
+        <p><strong>📚 Reading:</strong> Whether it’s an intense mystery or an inspiring biography, I find joy in diving into new worlds and ideas. Reading not only entertains me—it broadens my thinking.</p>
+      </div>
+      <div class="hobby-item">
+        <img src="img_3.png" alt="Jogging" class="hobby-img">
+        <p><strong>👟 Jogging:</strong> Early morning jogs are my way of clearing my mind and recharging for the day. It helps me stay mentally fresh and physically strong.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <header id="page3">
+    <h1>My Gallery</h1>
+    <p>Explore my featured video, book a meeting with me, and my hometown</p>
+  </header>
+
+
+
+  <section class="card">
+    <h2>🎥 MY FEATURED VIDEO</h2>
+    <div class="video-container">
+      <iframe
+        src="https://www.youtube.com/embed/qIZsQ_x8Ya8?si=e2avpoDc3hEX7One"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>BOOK A MEETING WITH ME</h2>
+
+    <form id="bookingForm">
+      <label for="name">Your Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Your Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="date">Select Date:</label><br>
+      <input type="date" id="date" name="date" required><br><br>
+
+      <label for="time">Select Time:</label><br>
+      <input type="time" id="time" name="time" required><br><br>
+
+      <button type="submit">Book Appointment</button>
+    </form>
+
+    <p id="confirmationMessage" style="color: green; font-weight: bold; display: none;"></p>
+  </section>
+
+
+  <section class="card">
+    <h2>MY HOMETOWN</h2>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127219.35629734218!2d101.01190239414058!3d4.837707685187234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31ca9c066ef5f953%3A0x7cdfc02cdbc59651!2sSungai%20Siput%2C%20Perak!5e0!3m2!1sen!2smy!4v1746020908529!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </section>
+
+  <section class="card">
+    <h2>Reflection</h2>
+    <p>Building this portfolio helped me organize my academic achievements and visualize my growth.
+      I realized how much I’ve improved in front-end development since my first HTML lesson.</p>
+
+    <h3>Short-Term Goal</h3>
+    <p>Master JavaScript and learn a modern framework like React.</p>
+
+    <h3>Long-Term Goal</h3>
+    <p>Become a full-stack developer and contribute to open-source projects.</p>
+  </section>
+
+
+
+
+</main>
+
+
+<footer>
+  <div class="footer-container">
+    <div class="footer-section contact-info">
+      <h3>Contact Info</h3>
+      <p><i class="fas fa-envelope"></i> junlok@2003.com</p>
+      <p><i class="fas fa-phone"></i> +6017-4962016</p>
+      <p><i class="fas fa-map-marker-alt"></i> Kedah, Malaysia</p>
+    </div>
+
+    <div class="footer-section social-media">
+      <h3>Follow Me</h3>
+      <a href="https://www.facebook.com/share/1SenJPrNDc/" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://www.instagram.com/junlok_03?igsh=OHd2aDdyOXY3emFz" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.tiktok.com/@junlok03?_t=ZS-8vxxUvLJRbO&_r=1" target="_blank"><i class="fab fa-tiktok"></i></a>
+      <a href="https://github.com/Koo-Jun-Lok" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+
+    <div class="footer-section bio">
+      <h1>"Striving to learn, grow, and create impact through technology."</h1>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 Koo Jun Lok. All rights reserved.</p>
+    <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i> Back to Top</a>
+  </div>
+</footer>
+
+</body>
+
+<script>
+  function toggleHobbies() {
+    const content = document.getElementById('hobby-content');
+    content.style.display = content.style.display === 'none' ? 'block' : 'none';
+  }
+
+  window.onscroll = function () {
+    const btn = document.getElementById("backToTop");
+    btn.style.display = window.scrollY > 200 ? "block" : "none";
+  }
+
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  function calculateAge(birthDate) {
+    const today = new Date();
+    const birth = new Date(birthDate);
+    let age = today.getFullYear() - birth.getFullYear();
+    const m = today.getMonth() - birth.getMonth();
+
+    if (m < 0 || (m === 0 && today.getDate() < birth.getDate())) {
+      age--;
+    }
+
+    return age;
+  }
+
+
+  const myBirthDate = '2003-06-16'; // YYYY-MM-DD format
+  document.getElementById('age').textContent = calculateAge(myBirthDate);
+
+  document.getElementById("bookingForm").addEventListener("submit", function(event) {
+    event.preventDefault(); // prevent form from refreshing the page
+
+    const name = document.getElementById("name").value;
+    const date = document.getElementById("date").value;
+    const time = document.getElementById("time").value;
+
+    const confirmation = document.getElementById("confirmationMessage");
+    confirmation.innerHTML = `✅ Thank you, <strong>${name}</strong>! Your appointment has been scheduled on <strong>${date}</strong> at <strong>${time}</strong>.`;
+    confirmation.style.display = "block";
+
+    // Optional: clear form
+    this.reset();
+  });
+</script>
+</html>
+
+
