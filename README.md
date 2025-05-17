@@ -4,7 +4,7 @@ Instruction
 ---
 After clone the repository
 
- Open Pages.html , then run the program
+ Open code > Pages.html , then run the program
 
  ---
  
